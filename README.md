@@ -14,9 +14,9 @@ Use the following command:
 nasm -f elf64 [filename].asm
 ld -s -o [filename] [filename].o
 ``` 
-Or run the compile.sh script in each folder
+Or use the makefile in each folder:
 ```
-./compile.sh
+make
 ``` 
 
 ## Running
